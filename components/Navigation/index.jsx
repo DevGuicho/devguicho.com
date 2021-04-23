@@ -5,6 +5,9 @@ import styles from './Navigation.module.scss'
 const Navigation = () => {
   return (
     <nav className={styles.Navigation}>
+      <span className={styles.Bar}>
+        <i className={styles.facebook}></i>
+      </span>
       <ul>
         <li>
           <a href='#about'>About me</a>
