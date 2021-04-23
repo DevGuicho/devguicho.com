@@ -1,5 +1,5 @@
 import React from 'react'
-import Project from '../Project/Index'
+import Project from '../Project/index'
 import styles from './ListOfProjects.module.scss'
 
 const ListOfProjects = () => {
@@ -7,7 +7,7 @@ const ListOfProjects = () => {
     <section className={styles.ListOfProjects} id='projects'>
       <div className={styles.container}>
         <h2>Projects</h2>
-        <p>
+        <p className={styles.description}>
           En mi proceso de aprendizaje de las tecnologías frontend he realizado
           algunos proyectos donde puse en práctica mis conocimientos de HTML,
           CSS, Javascript, React, Node JS y MongoDB

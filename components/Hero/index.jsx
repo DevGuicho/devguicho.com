@@ -1,10 +1,19 @@
 import React from 'react'
 import styles from './Hero.module.scss'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
     <section className={styles.Hero}>
-      <div>
+      <Image
+        className={styles.bgImage}
+        src='/static/main-bg.jpg'
+        alt='picture'
+        layout='fill'
+        objectFit='cover'
+        objectPosition='center'
+      />
+      <div className={styles.heroText}>
         <h2>Luis Vazquez Padilla</h2>
         <div className={styles.subtext}>
           <img

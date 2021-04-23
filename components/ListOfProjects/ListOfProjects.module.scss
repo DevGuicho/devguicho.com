@@ -1,7 +1,8 @@
 .ListOfProjects {
   min-height: 100vh;
-  background-color: #f3f3f3;
-  padding: 4rem 0;
+  background-color: var(--black);
+  padding: 8rem 0;
+  box-shadow: 0px -14px 38px 7px rgba(0, 0, 0, 0.2);
   h2 {
     letter-spacing: 1rem;
     font-size: 4rem;
@@ -11,11 +12,13 @@
     border-bottom: 5px solid var(--green);
     padding-bottom: 2rem;
   }
-  p {
-    font-size: 1.6rem;
-    line-height: 2;
-    margin: 4rem 0;
-  }
+}
+.description {
+  font-size: 1.6rem;
+  line-height: 2;
+  margin: 4rem 0;
+  font-weight: 600;
+  color: white;
 }
 .container {
   width: 95%;
@@ -24,5 +27,5 @@
 .projectGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  gap: 2.5rem;
 }

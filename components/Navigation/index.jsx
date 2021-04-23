@@ -7,7 +7,7 @@ const Navigation = () => {
     <nav className={styles.Navigation}>
       <ul>
         <li>
-          <a href='#'>About me</a>
+          <a href='#about'>About me</a>
         </li>
         <li>
           <a href='#projects'>Proyectos</a>
