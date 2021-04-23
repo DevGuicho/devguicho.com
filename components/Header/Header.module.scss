@@ -4,6 +4,9 @@
   background: #0a0a0a;
   border-top: 10px solid var(--green);
   font-family: var(--program-font);
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .container {
@@ -20,5 +23,10 @@
   }
   a {
     color: white;
+  }
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2.4rem;
+    }
   }
 }
