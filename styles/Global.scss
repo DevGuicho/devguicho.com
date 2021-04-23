@@ -1,0 +1,42 @@
+:root {
+  --header-hight: 8rem;
+  --green: #0b7a75;
+  --program-font: 'Roboto Mono', monospace;
+  --normal-font: 'Open Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--normal-font);
+  scroll-behavior: smooth;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+h2 {
+  font-size: 3.6rem;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}

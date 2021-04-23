@@ -1,0 +1,56 @@
+.Hero {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: calc(100vh - var(--header-hight));
+  background-image: url('/static/main-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 4;
+  box-shadow: 0px 14px 38px 7px rgba(0, 0, 0, 0.2);
+
+  &::after {
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    opacity: 0.6;
+    background-color: black;
+  }
+  div {
+    margin: 0;
+    padding: 0;
+    color: white;
+    z-index: 5;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    h2 {
+      font-family: 'Lobster', cursive;
+      font-weight: 400;
+      font-size: 8rem;
+      margin: 0;
+    }
+    p {
+      font-size: 2.4rem;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}
+
+.logo {
+  display: inline-block;
+  background-image: url('/static/react.svg');
+  width: 32px;
+  height: 32px;
+  margin-right: 1rem;
+}
+.subtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

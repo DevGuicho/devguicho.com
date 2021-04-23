@@ -1,0 +1,28 @@
+.ListOfProjects {
+  min-height: 100vh;
+  background-color: #f3f3f3;
+  padding: 4rem 0;
+  h2 {
+    letter-spacing: 1rem;
+    font-size: 4rem;
+    margin: 0;
+    text-align: center;
+    color: var(--green);
+    border-bottom: 5px solid var(--green);
+    padding-bottom: 2rem;
+  }
+  p {
+    font-size: 1.6rem;
+    line-height: 2;
+    margin: 4rem 0;
+  }
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}

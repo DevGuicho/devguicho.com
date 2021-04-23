@@ -1,0 +1,16 @@
+.Navigation {
+  font-family: var(--progam-font);
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      color: white;
+      margin-right: 2.5rem;
+      font-size: 1.6rem;
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}
