@@ -24,9 +24,19 @@ const Project = () => {
         </p>
       </div>
 
-      <a href='https://giffy-flax.vercel.app/' className={styles.btn}>
-        View Project
-      </a>
+      <div className={styles.BtnContainer}>
+        <a className={styles.btn} href='https://giffy-flax.vercel.app/'>
+          Ver Proyecto
+          <i></i>
+        </a>
+        <a
+          className={styles.outline}
+          href='https://github.com/DevGuicho/react-giffy'
+        >
+          Ver Código
+          <i></i>
+        </a>
+      </div>
     </article>
   )
 }

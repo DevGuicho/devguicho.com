@@ -1,8 +1,9 @@
 :root {
   --header-hight: 8rem;
-  --green: #0b7a75;
-  --gray: #f3f3f3;
-  --black: #0a0a0a;
+  --green: #206a5d;
+  --gray: #ebecf1;
+  --black: #1b1c25;
+  --blue: #1f4068;
   --program-font: 'Roboto Mono', monospace;
   --normal-font: 'Open Sans', sans-serif;
 }
@@ -42,7 +43,9 @@ a {
   display: inline-block;
   text-decoration: none;
 }
-
+i {
+  font-style: normal;
+}
 @font-face {
   font-family: 'brands';
   src: url('/fonts/fa-brands-400.woff2');

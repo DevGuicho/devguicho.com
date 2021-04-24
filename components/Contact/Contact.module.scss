@@ -1,0 +1,111 @@
+.Contact {
+  min-height: 100vh;
+  padding: calc(var(--header-hight) + 2rem) 0;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1200px;
+
+  h2 {
+    letter-spacing: 1rem;
+    font-size: 4rem;
+    margin: 0;
+    text-align: center;
+    color: var(--green);
+    border-bottom: 5px solid var(--green);
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+  }
+  p {
+    font-size: 1.6rem;
+    line-height: 2;
+    margin: 2rem 0;
+    font-weight: 600;
+    color: var(--black);
+    text-align: justify;
+    text-align: center;
+  }
+}
+
+.FormContainer {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  h3 {
+    color: var(--green);
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 0;
+  }
+}
+
+.FormBox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  div {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3.5rem;
+  }
+  input,
+  textarea {
+    width: 100%;
+    resize: none;
+    padding: 10px 0;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--green);
+  }
+  textarea {
+    height: 120px;
+    font-family: var(--normal-font);
+  }
+  label {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    font-size: 1.8rem;
+    font-weight: 300;
+    transition: 0.3s;
+  }
+  input:focus ~ label,
+  input:valid ~ label,
+  textarea:focus ~ label,
+  textarea:valid ~ label {
+    transform: translateY(-20px);
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: var(--green);
+  }
+}
+
+.Btn {
+  cursor: pointer;
+  border: none;
+  color: white;
+  width: 100%;
+  background-color: var(--green);
+  padding: 13px;
+  outline: none;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.Social {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  div {
+    display: inline-block;
+    margin: 0 auto;
+  }
+}

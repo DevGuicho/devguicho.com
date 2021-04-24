@@ -1,0 +1,29 @@
+.SocialNav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.SocialNavItem {
+  margin-right: 16px;
+  height: 40px;
+  width: 40px;
+  font-size: 2.4rem;
+  padding: 10px;
+  background-color: var(--green);
+  &:last-of-type {
+    margin-right: 0;
+  }
+  i {
+    font-family: 'brands';
+    color: var(--gray);
+    line-height: 0;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+  }
+}

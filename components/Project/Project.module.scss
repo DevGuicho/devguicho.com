@@ -25,22 +25,54 @@
   color: white;
   text-align: justify;
 }
-.btn {
+.BtnContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 0 2rem 2rem;
+}
+.outline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.6rem;
   cursor: pointer;
   padding: 1rem 2rem;
-  background: #0575e6; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #021b79,
-    #0575e6
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #021b79,
-    #0575e6
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 2px solid var(--green);
 
   font-weight: 600;
   color: white;
+  i {
+    font-family: 'brands';
+    margin-left: 1rem;
+    font-size: 2.5rem;
+  }
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  background-color: var(--green);
+
+  /* 
+    background: -webkit-linear-gradient(
+      to right,
+      #45a247,
+      #283c86
+    ); 
+    background: linear-gradient(
+      to right,
+      #45a247,
+      #283c86
+    );  */
+
+  font-weight: 600;
+  color: white;
+  i {
+    font-family: 'icon-solid';
+    margin-left: 1rem;
+  }
 }

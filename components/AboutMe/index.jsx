@@ -20,7 +20,7 @@ const AboutMe = () => {
               En julio de 2020 descubrí el mundo del desarrollo web y desde
               entonces no he parado de buscar y aprender acerca de las
               tecnologías que hoy mueven al mundo como HTML, CSS, JS, React y
-              NodeJS principalmente.
+              Node.js principalmente.
             </p>
             <p>
               Además de la programación, la música de The beatles, el clima frio

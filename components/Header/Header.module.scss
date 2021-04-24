@@ -1,7 +1,7 @@
 .Header {
   width: 100%;
   height: var(--header-hight);
-  background: #0a0a0a;
+  background: var(--black);
   border-top: 10px solid var(--green);
   font-family: var(--program-font);
   position: fixed;
@@ -20,6 +20,12 @@
   h1 {
     margin: 0;
     padding: 0;
+    a {
+      color: var(--gray);
+      span {
+        color: var(--green);
+      }
+    }
   }
   a {
     color: white;

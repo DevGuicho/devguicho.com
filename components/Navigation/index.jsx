@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
-import Link from 'next/link'
 import styles from './Navigation.module.scss'
 
 const Navigation = () => {
   const [isChecked, setIsChecked] = useState(false)
   const handleChangle = (e) => {
-    console.log(e.target.checked)
     setIsChecked(e.target.checked)
   }
   return (
@@ -29,9 +27,7 @@ const Navigation = () => {
           <a href='#projects'>Proyectos</a>
         </li>
         <li onClick={() => setIsChecked(false)}>
-          <Link href='/blog'>
-            <a>Blog</a>
-          </Link>
+          <a href='#contact'>Contacto</a>
         </li>
       </ul>
     </nav>

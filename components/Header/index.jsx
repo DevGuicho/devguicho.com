@@ -9,7 +9,11 @@ const Header = () => {
       <div className={styles.container}>
         <h1>
           <Link href='/'>
-            <a>{'<Devguicho />'}</a>
+            <a>
+              {'<'}
+              <span>Dev</span>
+              {'guicho />'}
+            </a>
           </Link>
         </h1>
         <Navigation />

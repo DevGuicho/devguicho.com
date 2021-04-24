@@ -1,0 +1,35 @@
+.Footer {
+  padding: 2rem 0;
+  width: 100%;
+  min-height: 60px;
+  background-color: var(--black);
+  border-bottom: 10px solid var(--green);
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  max-width: 1200px;
+  min-height: 50px;
+  gap: 2rem;
+  margin: 0 auto;
+  p {
+    color: var(--gray);
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 0;
+  }
+  div {
+    width: 100%;
+  }
+  a {
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    span {
+      color: var(--green);
+    }
+  }
+}
