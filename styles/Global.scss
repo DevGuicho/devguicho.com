@@ -48,9 +48,50 @@ i {
 }
 @font-face {
   font-family: 'brands';
+  font-style: normal;
+  font-weight: 400;
   src: url('/fonts/fa-brands-400.woff2');
+  font-display: swap;
 }
 @font-face {
   font-family: 'icon-solid';
+  font-style: solid;
+  font-weight: 900;
   src: url('/fonts/fa-solid-900.woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/OpenSans-Light.woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/OpenSans-Regular.woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/OpenSans-SemiBold.woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/OpenSans-Bold.woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Lobster.woff2');
+  font-display: swap;
 }

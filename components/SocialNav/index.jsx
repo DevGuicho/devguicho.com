@@ -20,7 +20,7 @@ const SocialNav = () => {
         </a>
       </li>
       <li className={styles.SocialNavItem}>
-        <a href=''>
+        <a href='https://www.linkedin.com/in/luis-v%C3%A1zquez-3a94191aa/'>
           <i></i>
         </a>
       </li>
