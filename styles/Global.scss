@@ -23,7 +23,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: var(--normal-font);
+  font-family: var(--normal-font), Arial, Helvetica, sans-serif;
 }
 ul,
 ol {
@@ -93,5 +93,19 @@ i {
   font-style: normal;
   font-weight: 400;
   src: url('/fonts/Lobster.woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/RobotoMono.woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/RobotoMono.woff2');
   font-display: swap;
 }
