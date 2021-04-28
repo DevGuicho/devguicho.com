@@ -6,6 +6,7 @@
   --blue: #1f4068;
   --program-font: 'Roboto Mono', monospace;
   --normal-font: 'Open Sans', sans-serif;
+  --col: 2;
 }
 
 *,
@@ -45,6 +46,12 @@ a {
 }
 i {
   font-style: normal;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --col: 1;
+  }
 }
 @font-face {
   font-family: 'brands';
