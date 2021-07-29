@@ -22,7 +22,7 @@ const Contact = () => {
             <div className={styles.FormBox}>
               <div>
                 <input type='text' name='name' id='name' required />
-                <label htmlFor=''>Name</label>
+                <label htmlFor=''>Nombre</label>
                 <ValidationError
                   prefix='Name'
                   field='name'
@@ -32,7 +32,7 @@ const Contact = () => {
 
               <div>
                 <input type='email' name='email' id='email' required />
-                <label htmlFor=''>Email Adress</label>
+                <label htmlFor=''>Correo</label>
                 <ValidationError
                   prefix='Email'
                   field='email'
@@ -41,7 +41,7 @@ const Contact = () => {
               </div>
               <div>
                 <textarea name='message' id='message' required />
-                <label htmlFor=''>Message</label>
+                <label htmlFor=''>Mensaje</label>
                 <ValidationError
                   prefix='Message'
                   field='message'
@@ -54,7 +54,7 @@ const Contact = () => {
                 className={styles.Btn}
                 disabled={state.submitting}
               >
-                Send
+                Enviar
               </button>
             </div>
           </form>

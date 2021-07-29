@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import { FaGithub } from 'react-icons/fa'
+
 import styles from './Project.module.scss'
 
 const Project = () => {
@@ -25,16 +27,25 @@ const Project = () => {
       </div>
 
       <div className={styles.BtnContainer}>
-        <a className={styles.btn} href='https://giffy-flax.vercel.app/'>
+        <a
+          className={styles.btn}
+          href='https://giffy-flax.vercel.app/'
+          target='_blank'
+          rel='noreferrer'
+        >
           Ver Proyecto
           <i></i>
         </a>
         <a
           className={styles.outline}
           href='https://github.com/DevGuicho/react-giffy'
+          target='_blank'
+          rel='noreferrer'
         >
           Ver Código
-          <i></i>
+          <i>
+            <FaGithub />
+          </i>
         </a>
       </div>
     </article>

@@ -1,6 +1,7 @@
 .Project {
   border: 2px solid var(--green);
   display: grid;
+  max-width: 400px;
   grid-template-rows: auto 1fr auto;
   picture {
     width: 100%;
@@ -74,5 +75,6 @@
   i {
     font-family: 'icon-solid', Arial, Helvetica, sans-serif;
     margin-left: 1rem;
+    text-align: center;
   }
 }

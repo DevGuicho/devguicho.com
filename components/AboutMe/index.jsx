@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <section className={style.AboutMe} id='about'>
       <div className={style.container}>
-        <h2>About Me</h2>
+        <h2>Acerca de mi</h2>
         <div className={style.AboutMeGrid}>
           <Image src='/static/me.jpg' alt='My Face' width={350} height={350} />
           <div>

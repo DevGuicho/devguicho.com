@@ -21,7 +21,7 @@ const Navigation = () => {
       />
       <ul className={styles.list}>
         <li onClick={() => setIsChecked(false)}>
-          <a href='#about'>About me</a>
+          <a href='#about'>Acerca</a>
         </li>
         <li onClick={() => setIsChecked(false)}>
           <a href='#projects'>Proyectos</a>
